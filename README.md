@@ -34,7 +34,35 @@ To use the scripts in this repository, you can either clone the repository or co
 git clone https://github.com/KambizKalhor/your-repo-name.git
 ```
 
+### Dependencies
 
+
+
+### Usage
+Running Alphafold on CARC
+Use the provided scripts to submit jobs efficiently, especially for batch predictions with arrays.
+Example usage:
+
+```bash
+sbatch run_alphafold_array.slurm
+```
+### Customization
+Feel free to modify the scripts to suit your protein prediction needs. You can adjust batch sizes, memory allocations, and other computational parameters as needed.
+
+### Contributions
+This project is open source and welcomes contributions from the community! If you'd like to contribute:
+
+### Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/your-feature).
+Open a pull request.
+
+### License
+This project is open source and available under the MIT License. Feel free to use, modify, and distribute the code.
+
+### Contact
+If you have any questions or need further assistance, please reach out to me via email at kkalhor@usc.edu.
 
 
 
