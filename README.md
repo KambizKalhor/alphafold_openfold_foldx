@@ -31,7 +31,7 @@ To use the scripts in this repository, you can either clone the repository or co
 
 ### Cloning the Repository
 ```bash
-git clone https://github.com/KambizKalhor/your-repo-name.git
+git clone https://github.com/KambizKalhor/my_personalized_bioinformatic_workflow.git
 ```
 
 ### Dependencies
@@ -72,7 +72,9 @@ If you have any questions or need further assistance, please reach out to me via
 
 
 
-
+note to myself
+use "git pull origin main" to pull
+use "git push origin --all" to push
 
 
 
