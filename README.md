@@ -70,8 +70,9 @@ If you have any questions or need further assistance, please reach out to me via
 
 
 
-![Link Text](https://pdbj.org/emnavi/pop_molmil.php?id=pdb-4zxb)
-
+![Link Text](Readme_figures/alphafold_github_figure1.png)
+![Link Text](Readme_figures/alphafold_github_figure.md)
+![Link Text](Readme_figures/excalidraw/phafold_github_figure.html)
 
 note to myself
 use "git pull origin main" to pull
