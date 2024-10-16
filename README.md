@@ -39,13 +39,16 @@ git clone https://github.com/KambizKalhor/your-repo-name.git
 
 
 ### Usage
-Running Alphafold on CARC
-Use the provided scripts to submit jobs efficiently, especially for batch predictions with arrays.
-Example usage:
-
+How to use:
 ```bash
-sbatch run_alphafold_array.slurm
+sbatch run_alphafold_script.sh <input.fasta> <output_directory>
 ```
+Example usage:
+```bash
+sbatch run_alphafold_script.sh /data/proteins/input.fasta /data/results/
+```
+
+
 ### Customization
 Feel free to modify the scripts to suit your protein prediction needs. You can adjust batch sizes, memory allocations, and other computational parameters as needed.
 
