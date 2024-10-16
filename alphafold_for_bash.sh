@@ -82,7 +82,7 @@ module purge
 eval "$(conda shell.bash hook)"
 conda activate /spack/conda/alphafold/
 
-export TMPDIR=/scratch1/kkalhor/tmp
+export TMPDIR=/scratch1/${USER}/tmp
 python /spack/conda/alphafold/alphafold/run_alphafold.py \
                 --fasta_paths=$line \
                 --model_preset=multimer \
