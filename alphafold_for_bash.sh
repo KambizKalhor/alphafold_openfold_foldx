@@ -85,7 +85,7 @@ conda activate /spack/conda/alphafold/
 export TMPDIR=/scratch1/${USER}/tmp
 python /spack/conda/alphafold/alphafold/run_alphafold.py \
                 --fasta_paths=$line \
-                --model_preset=multimer \
+                --model_preset=monomer \
                 --data_dir=/project/biodb/alphafold_data \
                 --bfd_database_path=/project/biodb/alphafold_data/bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt \
                 --uniprot_database_path=/project/biodb/alphafold_data/uniprot/uniprot.fasta \
