@@ -44,7 +44,7 @@ git clone https://github.com/KambizKalhor/my_personalized_bioinformatic_workflow
 ![decision](Readme_figures/alphafold_decision_chart_screenshot.png)
 #### Download one of the scripts below
 [![three_scripts](Readme_figures/alphafold_github_figure_1.png)](alphafold_for_bash.sh)
-[![three_scripts](Readme_figures/alphafold_github_figure_2.png)](alphafold_for_bash.sh)
+[![three_scripts](Readme_figures/alphafold_github_figure_2.png)](run_alphafold_multiple_sequence.sh)
 [![three_scripts](Readme_figures/alphafold_github_figure_3.png)](alphafold_for_bash.sh)
 
 
