@@ -2,11 +2,13 @@
 ![GitHub forks](https://img.shields.io/github/forks/KambizKalhor/my_personalized_bioinformatic_workflow)
 ![GitHub User's stars](https://img.shields.io/github/stars/KambizKalhor)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/KambizKalhor)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fadsteen.github.io%2F&up_message=SteenLab&style=flat)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/KambizKalhor/my_personalized_bioinformatic_workflow)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/t/KambizKalhor/my_personalized_bioinformatic_workflow)
-![GitHub Created At](https://img.shields.io/github/created-at/KambizKalhor/my_personalized_bioinformatic_workflow)
-![GitHub contributors](https://img.shields.io/github/contributors/KambizKalhor/my_personalized_bioinformatic_workflow)
+
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fadsteen.github.io%2F&up_message=Steen%20Lab&up_color=ccd5ae&style=for-the-badge&logo=ocean)
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/KambizKalhor/my_personalized_bioinformatic_workflow?style=for-the-badge&color=e9edc9)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/KambizKalhor/my_personalized_bioinformatic_workflow?style=for-the-badge&color=fefae0)
+![GitHub Created At](https://img.shields.io/github/created-at/KambizKalhor/my_personalized_bioinformatic_workflow?style=for-the-badge&color=faedcd)
+![GitHub contributors](https://img.shields.io/github/contributors/KambizKalhor/my_personalized_bioinformatic_workflow?style=for-the-badge&color=d4a373)
+
 
 ![Static Badge](https://img.shields.io/badge/Bash-%23D989C3?style=for-the-badge&logo=linux&logoColor=black&labelColor=%23FFE4C4)
 ![Static Badge](https://img.shields.io/badge/Python-%234BBF9E?style=for-the-badge&logo=python&logoColor=black&labelColor=%23FFE4C4)
@@ -92,18 +94,13 @@ Feel free to modify the scripts to suit your protein prediction needs. You can a
 ### Contributions
 This project is open source and welcomes contributions from the community! If you'd like to contribute:
 
-### Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/your-feature).
-Open a pull request.
-
 ### License
 This project is open source and available under the MIT License. Feel free to use, modify, and distribute the code.
 
 ### Contact
 If you have any questions or need further assistance, please reach out to me via email at kkalhor@usc.edu.
 
+for more information please visit [google-deepmind](https://github.com/google-deepmind/alphafold)
 
 
 
