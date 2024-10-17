@@ -96,5 +96,6 @@ python /spack/conda/alphafold/alphafold/run_alphafold.py \
                 --template_mmcif_dir=/project/biodb/alphafold_data/pdb_mmcif/mmcif_files/ \
                 --obsolete_pdbs_path=/project/biodb/alphafold_data/pdb_mmcif/obsolete.dat \
                 --max_template_date=2022-12-12 \
+                --models_to_relax=best \
                 --output_dir=$structure_prediction_directory/ \
                 --use_gpu_relax=TRUE
