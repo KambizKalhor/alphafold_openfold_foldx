@@ -34,10 +34,20 @@ To use the scripts in this repository, you can either clone the repository or co
 git clone https://github.com/KambizKalhor/my_personalized_bioinformatic_workflow.git
 ```
 
-### Dependencies
+### Step-To-Step writing the code
+1. first use the desicion chart below to select the script you need to execute.
+2. change the Slurm headers
+3. run the script
+4. wait to get the results
+
+#### Step one: decide which script you want to use based on chart below
+![decision](Readme_figures/alphafold_decision_chart_screenshot.png)
+![three_scripts](Readme_figures/alphafold_github_figure1.png)
 
 
+[![three_scripts](Readme_figures/alphafold_github_figure1.png)](alphafold_for_bash.sh)
 
+[link-one](alphafold_for_bash.sh)
 ### Usage
 How to use:
 ```bash
@@ -69,10 +79,6 @@ If you have any questions or need further assistance, please reach out to me via
 
 
 
-
-![Link Text](Readme_figures/alphafold_github_figure1.png)
-![Link Text](Readme_figures/alphafold_github_figure.md)
-![Link Text](Readme_figures/excalidraw/phafold_github_figure.html)
 
 note to myself
 use "git pull origin main" to pull
