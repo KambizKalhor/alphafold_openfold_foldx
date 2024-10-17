@@ -20,7 +20,7 @@
 ![Static Badge](https://img.shields.io/badge/LaTeX-%2333A67C?style=for-the-badge&logo=LaTeX&logoColor=black&labelColor=%23FFE4C4)
 ![Static Badge](https://img.shields.io/badge/mysql-%23F27A5E?style=for-the-badge&logo=mysql&logoColor=black&labelColor=%23FFE4C4)
 
-This repository provides a comprehensive guide and scripts to help CARC (High-Performance Computing at the University of Southern California) users efficiently run Alphafold for protein structure predictions. The guide is specifically designed for USC students and all CARC users, especially those affiliated with the MEB (Molecular and Environmental Biology) department.
+This repository provides a comprehensive guide and scripts to help CARC (High-Performance Computing at the University of Southern California) users efficiently run Alphafold for protein structure predictions. The guide is specifically designed for USC students and all CARC users, especially those affiliated with the MEB (marine and Environmental Biology) department.
 
 ## Features
 - **Optimized Code for Alphafold:** Learn how to write the best possible code for running Alphafold on CARC.
