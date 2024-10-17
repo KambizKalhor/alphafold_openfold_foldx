@@ -34,20 +34,47 @@ To use the scripts in this repository, you can either clone the repository or co
 git clone https://github.com/KambizKalhor/my_personalized_bioinformatic_workflow.git
 ```
 
-### Step-To-Step writing the code
-1. first use the desicion chart below to select the script you need to execute.
-2. change the Slurm headers
-3. run the script
-4. wait to get the results
+### Step-by-Step Guide to Running the Code
+1. Start by using the decision chart below to choose the appropriate script for your task.
+2. Update the SLURM headers to match your job requirements.
+3. Execute the script.
+4. Wait for the results to be generated.
 
-#### Step one: decide which script you want to use based on chart below
+#### Step one: decide which script you want to use based on chart below and download it.
 ![decision](Readme_figures/alphafold_decision_chart_screenshot.png)
-![three_scripts](Readme_figures/alphafold_github_figure1.png)
+#### Download one of the scripts below
+[![three_scripts](Readme_figures/alphafold_github_figure_1.png)](alphafold_for_bash.sh)
+[![three_scripts](Readme_figures/alphafold_github_figure_2.png)](alphafold_for_bash.sh)
+[![three_scripts](Readme_figures/alphafold_github_figure_3.png)](alphafold_for_bash.sh)
 
 
-[![three_scripts](Readme_figures/alphafold_github_figure1.png)](alphafold_for_bash.sh)
+#### Step Two: Update the SLURM Headers to Match Your Job Requirements
 
-[link-one](alphafold_for_bash.sh)
+Below is an example of a SLURM script I used:
+
+```bash
+#!/bin/bash
+#SBATCH --account=asteen_1130
+#SBATCH --partition=gpu
+#SBATCH --cpus-per-task=8
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:p100:1
+#SBATCH --mem=60GB
+#SBATCH --time=02:00:00
+#SBATCH --array=1-10
+```
+
+### What to Update:
+1. **Project Account**: Change `--account` to your specific project account. You can find your account by visiting the [CARC User Portal](https://hpcaccount.usc.edu/) and looking for `slurm_account: your_project_account`.
+2. **Resources**: Modify the following based on your job's requirements:
+   - `--nodes`: Adjust the number of nodes.
+   - `--cpus-per-task`: Set the number of CPUs per task.
+   - `--mem`: Change the memory allocation.
+   - `--time`: Set the estimated time for your computations.
+
+3. **Job Arrays**: If your script uses the `--array` tag, adjust it to reflect the total number of sequences you're processing (e.g., `--array=1-<sequence_count>`).
+
+
 ### Usage
 How to use:
 ```bash
