@@ -92,6 +92,9 @@ sbatch run_alphafold_script.sh /data/proteins/input.fasta /data/results/
 Feel free to modify the scripts to suit your protein prediction needs. You can adjust batch sizes, memory allocations, and other computational parameters as needed.
 if you want to know more about alphafold parameters read this. [READ](more_about_parameters.md)
 
+If you want to know more about outputs, read this.[READ](more_about_outputs.md)
+
+
 ### Contributions
 This project is open source and welcomes contributions from the community! If you'd like to contribute:
 
