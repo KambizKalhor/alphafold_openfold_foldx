@@ -5,8 +5,8 @@
 #SBATCH --nodes=1
 #SBATCH --gres=gpu:p100:1
 #SBATCH --mem=60GB
-#SBATCH --time=02:00:00
-#SBATCH --array=1-3
+#SBATCH --time=01:00:00
+#SBATCH --array=1-6
 
 
 # PART-ONE -> separate the fasta file to multiple fasta files and make directory for each of them
@@ -71,7 +71,8 @@ echo "this is job ${SLURM_ARRAY_TASK_ID}"
 ###### now make a variable to feed as input to main script
 line=$(sed -n -e "$SLURM_ARRAY_TASK_ID p" "$output_path/list_of_paths.txt")
 structure_prediction_directory=$(dirname "${line}")
-
+start_time=$(date +%s) # Start time in seconds since epoch
+echo $start_time
 
 
 #############################
@@ -104,3 +105,12 @@ singularity exec --nv --bind /project,/scratch1,/home1 /spack/singularity/hpc/op
  --model_device cuda:0 \
  $structure_prediction_directory \
  /project/biodb/alphafold_data/pdb_mmcif/mmcif_files
+
+
+
+
+end_time=$(date +%s) # End time in seconds since epoch
+
+# Calculate and print the execution time
+execution_time=$((end_time - start_time))
+echo "Execution Time: $execution_time seconds"
