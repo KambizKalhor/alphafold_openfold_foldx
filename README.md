@@ -96,7 +96,8 @@ If you want to know more about outputs, read this.[READ](more_about_outputs.md)
 
 
 ### Contributions
-This project is open source and welcomes contributions from the community! If you'd like to contribute:
+This project is open source and welcomes contributions from the community! If you'd like to contribute.
+thanks to CARC support team espcially Tomek Osinski  for setting up alphfold.
 
 ### License
 This project is open source and available under the MIT License. Feel free to use, modify, and distribute the code.
