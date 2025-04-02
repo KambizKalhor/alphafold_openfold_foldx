@@ -1,4 +1,4 @@
-# A Practical Guide to Use Alphafold in CARC
+# A Practical Guide to Use Alphafold and openfold in CARC
 ![GitHub forks](https://img.shields.io/github/forks/KambizKalhor/my_personalized_bioinformatic_workflow)
 ![GitHub User's stars](https://img.shields.io/github/stars/KambizKalhor)
 ![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/KambizKalhor)
